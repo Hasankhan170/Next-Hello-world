@@ -15,7 +15,7 @@ function about() {
      <div className='mt-5 px-5 py-5 flex justify-center gap-10'>
         <Cart title={'Hasan khan'} description={'My Name Is Hasan'}/>
         <Cart title={'Ahsan khan'} description={'My Name Is Ahsan'}/>
-        <Cart title={'Tayyab khan'} description={'My Name Is Tayyab'}/>
+        <Cart title={'Tayyab khan'} />
      </div>
    </>
   )
