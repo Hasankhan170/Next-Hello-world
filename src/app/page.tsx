@@ -1,8 +1,10 @@
+
 import Link from "next/link"
 
 
 
 function App() {
+  console.log('checking server ')
   return (
     <>
     <div className="flex justify-center gap-10 mt-2 text-2xl">

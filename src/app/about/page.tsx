@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import Cart from '../components/Cart'
 
 function about() {
   return (
@@ -11,6 +12,11 @@ function about() {
       <button className='btn btn-warning'><Link href={'/'}>Home</Link></button>
       <button className='btn btn-warning'><Link href={'/contact'}>Contact</Link></button>
     </div>
+     <div className='mt-5 px-5 py-5 flex justify-center gap-10'>
+        <Cart title={'Hasan khan'} description={'My Name Is Hasan'}/>
+        <Cart title={'Ahsan khan'} description={'My Name Is Ahsan'}/>
+        <Cart title={'Tayyab khan'} description={'My Name Is Tayyab'}/>
+     </div>
    </>
   )
 }
